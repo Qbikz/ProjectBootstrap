@@ -1,0 +1,23 @@
+{
+    "name": "qbikz/magento-project-bootstrap",
+    "type": "magento-module",
+    "license":"OSL-3.0",
+    "description":"Magento Community",
+    "authors":[
+        {
+            "name":"Roy Klopper",
+            "email":"r.klopper@qbikz.com"
+        }
+    ],
+    "require": {
+        "magento-hackathon/magento-composer-installer": "dev-master"
+    },
+     "extra": {
+        "map": [
+            ["app/code/community/Qbikz/ProjectBootstrap", "app/code/community/Qbikz/ProjectBootstrap"],
+            ["app/etc/modules/Qbikz_ProjectBootstrap.xml", "app/etc/modules/Qbikz_ProjectBootstrap.xml"],
+            ["index.php", "index.php"]
+            ["var/import", "var/import"]
+        ]
+    }
+}
