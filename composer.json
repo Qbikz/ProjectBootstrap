@@ -16,7 +16,7 @@
         "map": [
             ["app/code/community/Qbikz/ProjectBootstrap", "app/code/community/Qbikz/ProjectBootstrap"],
             ["app/etc/modules/Qbikz_ProjectBootstrap.xml", "app/etc/modules/Qbikz_ProjectBootstrap.xml"],
-            ["index.php", "index.php"]
+            ["index.php", "index.php"],
             ["var/import", "var/import"]
         ]
     }
