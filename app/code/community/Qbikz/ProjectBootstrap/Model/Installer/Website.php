@@ -88,6 +88,7 @@ class Qbikz_ProjectBootstrap_Model_Installer_Website extends Qbikz_ProjectBootst
             ->setName($data['website_name'])
             ->setSortOrder($data['website_sort_order'])
             ->setDefaultStoreGroupName($data['website_default_store_group_name'])
+            ->setIsDefault($data['website_is_default'])
             ->save();
     }
 
